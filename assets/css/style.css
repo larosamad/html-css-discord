@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 *{
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
     list-style: none;
+    font-family: 'Varela Round', sans-serif;
 }
 
 header{
-    background-color: yellowgreen;
+    background-color: #255ee9;
+    color: white;
 }
 
 .horizontal-header{
@@ -19,5 +23,69 @@ header{
 .first-menu{
     display: flex;
     justify-content: space-around;
-    width: 20%;
+}
+
+li{
+    padding: 20px;
+}
+
+.button{
+    border-radius: 20px;
+    padding: 15px 20px;
+}
+
+.login{
+    background-color: white;  
+    color: black;  
+}
+
+.vertical-header{
+    background: url(../img/jumbo.png) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    width: auto;
+    max-width: auto;
+    max-height: auto;
+    background-color: #628cf7;
+    padding: 12vh;
+}
+
+.inside{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.text-header{
+    text-align: center;
+    padding: 40px 20%;
+    font-size: 1.2rem;
+}
+
+.buttons{
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.open, .download{
+    display: inline;
+}
+
+.download{
+    background-color: white;
+    color: black;
+    margin-right: 50px;
+}
+
+.download::before{
+    content: '\2193';
+    padding-right: 10px;
+}
+
+.open{
+    background-color: black;
+}
+
+.buttonbig{
+    font-size: 1.2rem;
 }
