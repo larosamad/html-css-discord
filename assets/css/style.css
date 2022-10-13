@@ -89,9 +89,12 @@ li{
     font-size: 1.2rem;
 }
 
+
 .no-background::after{
     content: url('../img/wave.svg');
     filter: opacity(10%);
+    line-height: 0;
+    display: block;
 }
 
 .mainflex{
@@ -131,7 +134,7 @@ p{
 }
 
 .with-wave{
-    padding: 90px 0;
+    padding: 50px 0;
 }
 
 .grey{
@@ -143,4 +146,65 @@ p{
     filter: opacity(10%);
     display: block;
     transform: rotate(180deg);
+    line-height: 0;
+}
+
+.after-wave::after{
+    content: url('../img/wave.svg');
+    filter: opacity(10%);
+    display: block;
+    line-height: 0;
+}
+
+.vertical-section{
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.7rem;
+    padding: 50px;
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.blue-bg{
+    background: #628cf7;
+}
+
+.marginfix{
+    padding-bottom: 100px;
+}
+
+footer{
+    background-color: #23272a;
+}
+
+.blue{
+    color: #255ee9;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#big-li{
+    flex-grow: 2;
+    font-size: 2rem;
+}
+
+.small-li{
+    flex-grow: 1;
+}
+
+.column{
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.language{
+    display: block;
 }
