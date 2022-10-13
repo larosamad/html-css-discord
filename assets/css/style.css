@@ -125,5 +125,15 @@ p{
     flex-direction: row-reverse;
 }
 
-.wave{
-padding: 90px 0;}
+.with-wave{
+    padding: 90px 0;
+}
+
+.no-background::after{
+    content: url('../img/wave.svg');
+    filter: opacity(50%);
+}
+
+.grey{
+    background-color: lightgrey;
+}
