@@ -40,10 +40,10 @@ li{
 }
 
 .vertical-header{
-    background: url(../img/jumbo.png) ;
+    background: url('../img/jumbo.png') ;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
+    background-attachment: scroll;
+    background-size: cover;
     width: auto;
     max-width: auto;
     max-height: auto;
@@ -88,4 +88,39 @@ li{
 
 .buttonbig{
     font-size: 1.2rem;
+}
+
+.mainflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container60{
+    margin: auto;
+    width: 70%;
+}
+
+.picture-main{
+    flex-basis: 80%;
+}
+
+.picture-main img{
+    width: 80%;
+}
+
+.text-main{
+    flex-basis: 50%;
+    padding: 50px 0;
+}
+
+h2{
+    font-size: 2.8rem;
+    font-style: bolder;
+}
+
+p{
+    font-size: 1.3rem;
+    padding-top: 20px;
 }
