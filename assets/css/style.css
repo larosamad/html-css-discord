@@ -45,15 +45,14 @@ li{
     background-attachment: scroll;
     background-size: cover;
     width: auto;
-    max-width: auto;
-    max-height: auto;
     background-color: #628cf7;
-    padding: 12vh;
 }
 
 .inside{
     text-align: center;
-    padding-top: 50px;
+    margin: auto;
+    width: 70%;
+    padding: 12vh 0;
 }
 
 .text-header{
