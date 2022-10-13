@@ -98,19 +98,16 @@ li{
 
 .container60{
     margin: auto;
-    width: 70%;
+    width: 60%;
 }
 
 .picture-main{
-    flex-basis: 80%;
+    flex-basis: 50%;
 }
 
-.picture-main img{
-    width: 80%;
-}
 
 .text-main{
-    flex-basis: 50%;
+    flex-basis: 40%;
     padding: 50px 0;
 }
 
@@ -123,3 +120,10 @@ p{
     font-size: 1.3rem;
     padding-top: 20px;
 }
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.wave{
+padding: 90px 0;}
