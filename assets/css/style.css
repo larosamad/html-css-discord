@@ -8,20 +8,39 @@
     font-family: 'Varela Round', sans-serif;
 }
 
+.flex{
+    display: flex;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.j-around{
+    justify-content: space-around;
+}
+
+.f-start{
+    align-items: flex-start;
+}
+
+.column{
+    flex-direction: column;
+}
+
+
 header{
     background-color: #255ee9;
     color: white;
 }
 
 .horizontal-header{
-    display: flex;
     justify-content: space-around;
     align-items: center;
     height: 4rem;
 }
 
 .first-menu{
-    display: flex;
     justify-content: space-around;
 }
 
@@ -179,16 +198,15 @@ h3{
 
 footer{
     background-color: #23272a;
+    height: 400px;
 }
 
 .blue{
     color: #255ee9;
 }
 
-.flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.white{
+    color: white;
 }
 
 #big-li{
@@ -200,11 +218,4 @@ footer{
     flex-grow: 1;
 }
 
-.column{
-    flex-direction: column;
-    align-items: flex-end;
-}
 
-.language{
-    color: white;
-}
