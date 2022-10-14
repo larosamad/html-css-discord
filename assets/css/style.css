@@ -74,6 +74,7 @@ nav{
     background: url('../img/jumbo.png') ;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    background-position: center;
     background-size: cover;
     width: auto;
     background-color: #628cf7;
