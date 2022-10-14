@@ -36,7 +36,6 @@
     flex-direction: column;
 }
 
-
 header{
     background-color: #255ee9;
     color: white;
@@ -54,6 +53,7 @@ header{
 
 .padding20{
     padding: 20px;
+    padding-left: 0;
 }
 
 .button{
@@ -129,7 +129,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .container60{
@@ -220,6 +219,7 @@ footer{
 
 .big-li{
     font-size: 2rem;
+    width: 70%;
 }
 
 .small-li{
