@@ -41,10 +41,14 @@ header{
     color: white;
 }
 
-.horizontal-header{
+nav{
     justify-content: space-around;
     align-items: center;
     height: 4rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #255ee9;
 }
 
 .first-menu{
